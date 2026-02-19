@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('/fonts/Inter/Inter-VariableFont_opsz\,wght.woff2') format('woff2');
+    src: url('../fonts/Inter/Inter-VariableFont_opsz_wght.woff2') format('woff2');
     font-weight: 100 900;
     font-style: normal;
 }
@@ -166,7 +166,7 @@ a {
 }
 
 .list--tick {
-    list-style-image: url(/images/tick.svg);
+    list-style-image: url(../images/tick.svg);
     padding-left: 3rem;
     color: var(--color-headings);
 }
